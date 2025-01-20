@@ -12,12 +12,12 @@ $choice = Read-Host "Enter 1 for Windows 11 or 2 for Windows 10"
 switch ($choice) {
    "1" {
        # Windows 11 ISO path
-       $isoPath = "\\sccm-dp-srv\S\Sources\ISO\SW_DVD9_Win_Pro_11_23H2.2_64BIT_English_Pro_Ent_EDU_N_MLF_X23-67985.iso"
+       $isoPath = "[Redacted]"
        Write-Host "You chose Windows 11."
    }
    "2" {
        # Windows 10 ISO path
-       $isoPath = "\\sccm-dp-srv\S\Sources\ISO\SW_DVD9_Win_Pro_10_22H2.15_64BIT_English_Pro_Ent_EDU_N_MLF_X23-67185.iso"
+       $isoPath = "[Redacted]"
        Write-Host "You chose Windows 10."
    }
    Default {
